@@ -1,0 +1,1734 @@
+{
+  "palette": {
+    "cream": "FDF9F0",
+    "mint": "D2F1E1",
+    "blue": "C1DEE8",
+    "pink": "F5BCBD",
+    "lavender": "E1D5EF",
+    "butter": "F2E5C1",
+    "cocoa": "674D5B",
+    "peach": "FAEADA"
+  },
+  "levels": [
+    {
+      "title": "薄荷回廊",
+      "subtitle": "循著階梯，把第一縷微光帶回庭院。",
+      "background": "ECE8F0",
+      "focus": [
+        -0.5,
+        2,
+        -1.3
+      ],
+      "camera_size": 18.7,
+      "nodes": {
+        "start": {
+          "p": [
+            0,
+            2,
+            4.2
+          ],
+          "style": "start",
+          "tint": "blue",
+          "name": "來時階"
+        },
+        "west": {
+          "p": [
+            -4.2,
+            2,
+            0
+          ],
+          "style": "balcony",
+          "tint": "mint",
+          "name": "薄荷露台"
+        },
+        "garden": {
+          "p": [
+            -4.2,
+            3.8,
+            -3.6
+          ],
+          "style": "garden",
+          "tint": "mint",
+          "name": "高處花園"
+        },
+        "north": {
+          "p": [
+            0,
+            2,
+            -4.2
+          ],
+          "style": "balcony",
+          "tint": "pink",
+          "name": "薔薇廊"
+        },
+        "moon": {
+          "p": [
+            0,
+            4,
+            -7.8
+          ],
+          "style": "temple",
+          "tint": "lavender",
+          "name": "月影亭"
+        },
+        "exit": {
+          "p": [
+            4.2,
+            2,
+            0
+          ],
+          "style": "exit",
+          "tint": "peach",
+          "name": "歸途之門"
+        },
+        "west__garden_edge": {
+          "p": [
+            -4.199999809265137,
+            2.0,
+            -1.0399999618530273
+          ],
+          "hidden": true
+        },
+        "west__garden_0": {
+          "p": [
+            -4.199999809265137,
+            2.180000066757202,
+            -1.1159999370574951
+          ],
+          "hidden": true
+        },
+        "west__garden_1": {
+          "p": [
+            -4.199999809265137,
+            2.359999895095825,
+            -1.2679998874664307
+          ],
+          "hidden": true
+        },
+        "west__garden_2": {
+          "p": [
+            -4.199999809265137,
+            2.5399999618530273,
+            -1.4199999570846558
+          ],
+          "hidden": true
+        },
+        "west__garden_3": {
+          "p": [
+            -4.199999809265137,
+            2.7200000286102295,
+            -1.5720000267028809
+          ],
+          "hidden": true
+        },
+        "west__garden_4": {
+          "p": [
+            -4.199999809265137,
+            2.9000000953674316,
+            -1.7239999771118164
+          ],
+          "hidden": true
+        },
+        "west__garden_5": {
+          "p": [
+            -4.199999809265137,
+            3.0799999237060547,
+            -1.875999927520752
+          ],
+          "hidden": true
+        },
+        "west__garden_6": {
+          "p": [
+            -4.199999809265137,
+            3.259999990463257,
+            -2.0279998779296875
+          ],
+          "hidden": true
+        },
+        "west__garden_7": {
+          "p": [
+            -4.199999809265137,
+            3.440000057220459,
+            -2.179999828338623
+          ],
+          "hidden": true
+        },
+        "west__garden_8": {
+          "p": [
+            -4.199999809265137,
+            3.619999885559082,
+            -2.3320000171661377
+          ],
+          "hidden": true
+        },
+        "west__garden_9": {
+          "p": [
+            -4.199999809265137,
+            3.799999952316284,
+            -2.4839999675750732
+          ],
+          "hidden": true
+        },
+        "north__moon_edge": {
+          "p": [
+            0.0,
+            2.0,
+            -5.239999771118164
+          ],
+          "hidden": true
+        },
+        "north__moon_0": {
+          "p": [
+            0.0,
+            2.1818182468414307,
+            -5.309090614318848
+          ],
+          "hidden": true
+        },
+        "north__moon_1": {
+          "p": [
+            0.0,
+            2.3636362552642822,
+            -5.447272777557373
+          ],
+          "hidden": true
+        },
+        "north__moon_2": {
+          "p": [
+            0.0,
+            2.545454502105713,
+            -5.585453987121582
+          ],
+          "hidden": true
+        },
+        "north__moon_3": {
+          "p": [
+            0.0,
+            2.7272727489471436,
+            -5.723636627197266
+          ],
+          "hidden": true
+        },
+        "north__moon_4": {
+          "p": [
+            0.0,
+            2.909090995788574,
+            -5.861818313598633
+          ],
+          "hidden": true
+        },
+        "north__moon_5": {
+          "p": [
+            0.0,
+            3.090909004211426,
+            -6.0
+          ],
+          "hidden": true
+        },
+        "north__moon_6": {
+          "p": [
+            0.0,
+            3.2727272510528564,
+            -6.138181686401367
+          ],
+          "hidden": true
+        },
+        "north__moon_7": {
+          "p": [
+            0.0,
+            3.454545497894287,
+            -6.276363849639893
+          ],
+          "hidden": true
+        },
+        "north__moon_8": {
+          "p": [
+            0.0,
+            3.6363637447357178,
+            -6.414546012878418
+          ],
+          "hidden": true
+        },
+        "north__moon_9": {
+          "p": [
+            0.0,
+            3.8181817531585693,
+            -6.552727222442627
+          ],
+          "hidden": true
+        },
+        "north__moon_10": {
+          "p": [
+            0.0,
+            4.0,
+            -6.690909385681152
+          ],
+          "hidden": true
+        }
+      },
+      "edges": [
+        [
+          "west",
+          "west__garden_edge"
+        ],
+        [
+          "west__garden_edge",
+          "west__garden_0"
+        ],
+        [
+          "west__garden_0",
+          "west__garden_1"
+        ],
+        [
+          "west__garden_1",
+          "west__garden_2"
+        ],
+        [
+          "west__garden_2",
+          "west__garden_3"
+        ],
+        [
+          "west__garden_3",
+          "west__garden_4"
+        ],
+        [
+          "west__garden_4",
+          "west__garden_5"
+        ],
+        [
+          "west__garden_5",
+          "west__garden_6"
+        ],
+        [
+          "west__garden_6",
+          "west__garden_7"
+        ],
+        [
+          "west__garden_7",
+          "west__garden_8"
+        ],
+        [
+          "west__garden_8",
+          "west__garden_9"
+        ],
+        [
+          "west__garden_9",
+          "garden"
+        ],
+        [
+          "north",
+          "north__moon_edge"
+        ],
+        [
+          "north__moon_edge",
+          "north__moon_0"
+        ],
+        [
+          "north__moon_0",
+          "north__moon_1"
+        ],
+        [
+          "north__moon_1",
+          "north__moon_2"
+        ],
+        [
+          "north__moon_2",
+          "north__moon_3"
+        ],
+        [
+          "north__moon_3",
+          "north__moon_4"
+        ],
+        [
+          "north__moon_4",
+          "north__moon_5"
+        ],
+        [
+          "north__moon_5",
+          "north__moon_6"
+        ],
+        [
+          "north__moon_6",
+          "north__moon_7"
+        ],
+        [
+          "north__moon_7",
+          "north__moon_8"
+        ],
+        [
+          "north__moon_8",
+          "north__moon_9"
+        ],
+        [
+          "north__moon_9",
+          "north__moon_10"
+        ],
+        [
+          "north__moon_10",
+          "moon"
+        ]
+      ],
+      "rotors": [
+        {
+          "id": "dial",
+          "p": [
+            0,
+            2,
+            0
+          ],
+          "ports": [
+            "west",
+            "start",
+            "exit",
+            "north"
+          ],
+          "orientation": 0,
+          "tint": "pink"
+        }
+      ],
+      "collectibles": {
+        "garden": {
+          "label": "薄荷",
+          "color": "D2F1E1"
+        },
+        "moon": {
+          "label": "月光",
+          "color": "E1D5EF"
+        }
+      },
+      "stairs": [
+        [
+          "west",
+          "garden"
+        ],
+        [
+          "north",
+          "moon"
+        ]
+      ],
+      "exit": "exit",
+      "start": "start",
+      "lift": null,
+      "gated_edges": [],
+      "solution": [
+        [
+          "walk",
+          "garden"
+        ],
+        [
+          "walk",
+          "dial"
+        ],
+        [
+          "turn",
+          -1
+        ],
+        [
+          "walk",
+          "moon"
+        ],
+        [
+          "walk",
+          "dial"
+        ],
+        [
+          "turn",
+          -1
+        ],
+        [
+          "walk",
+          "exit"
+        ]
+      ]
+    },
+    {
+      "title": "糖霜天梯",
+      "subtitle": "喚醒升降台，去屋頂尋找星光。",
+      "background": "E7EEF0",
+      "focus": [
+        0.3,
+        2.6,
+        -2.8
+      ],
+      "camera_size": 22.3,
+      "nodes": {
+        "start": {
+          "p": [
+            0,
+            2,
+            4.2
+          ],
+          "style": "start",
+          "tint": "pink",
+          "name": "來時階"
+        },
+        "west": {
+          "p": [
+            -4.2,
+            2,
+            0
+          ],
+          "style": "balcony",
+          "tint": "blue",
+          "name": "水藍廊"
+        },
+        "key": {
+          "p": [
+            -4.2,
+            3.6,
+            -3.6
+          ],
+          "style": "switch",
+          "tint": "mint",
+          "name": "風鈴花園"
+        },
+        "north": {
+          "p": [
+            0,
+            2,
+            -4.2
+          ],
+          "style": "balcony",
+          "tint": "lavender",
+          "name": "升降台下站"
+        },
+        "roof": {
+          "p": [
+            0,
+            5,
+            -8.4
+          ],
+          "style": "balcony",
+          "tint": "blue",
+          "name": "雲上露台"
+        },
+        "star": {
+          "p": [
+            3.6,
+            6.5,
+            -8.4
+          ],
+          "style": "observatory",
+          "tint": "lavender",
+          "name": "星糖觀測台"
+        },
+        "east": {
+          "p": [
+            4.2,
+            2,
+            0
+          ],
+          "style": "garden",
+          "tint": "pink",
+          "name": "草莓花園"
+        },
+        "exit": {
+          "p": [
+            7.8,
+            3.6,
+            0
+          ],
+          "style": "exit",
+          "tint": "peach",
+          "name": "歸途之門"
+        },
+        "west__key_edge": {
+          "p": [
+            -4.199999809265137,
+            2.0,
+            -1.0399999618530273
+          ],
+          "hidden": true
+        },
+        "west__key_0": {
+          "p": [
+            -4.199999809265137,
+            2.1777777671813965,
+            -1.1244444847106934
+          ],
+          "hidden": true
+        },
+        "west__key_1": {
+          "p": [
+            -4.199999809265137,
+            2.355555534362793,
+            -1.2933332920074463
+          ],
+          "hidden": true
+        },
+        "west__key_2": {
+          "p": [
+            -4.199999809265137,
+            2.5333333015441895,
+            -1.4622222185134888
+          ],
+          "hidden": true
+        },
+        "west__key_3": {
+          "p": [
+            -4.199999809265137,
+            2.711111068725586,
+            -1.6311111450195312
+          ],
+          "hidden": true
+        },
+        "west__key_4": {
+          "p": [
+            -4.199999809265137,
+            2.8888888359069824,
+            -1.7999999523162842
+          ],
+          "hidden": true
+        },
+        "west__key_5": {
+          "p": [
+            -4.199999809265137,
+            3.066666603088379,
+            -1.9688888788223267
+          ],
+          "hidden": true
+        },
+        "west__key_6": {
+          "p": [
+            -4.199999809265137,
+            3.2444443702697754,
+            -2.13777756690979
+          ],
+          "hidden": true
+        },
+        "west__key_7": {
+          "p": [
+            -4.199999809265137,
+            3.422222137451172,
+            -2.306666612625122
+          ],
+          "hidden": true
+        },
+        "west__key_8": {
+          "p": [
+            -4.199999809265137,
+            3.5999999046325684,
+            -2.475555419921875
+          ],
+          "hidden": true
+        },
+        "roof__star_edge": {
+          "p": [
+            1.0399999618530273,
+            5.0,
+            -8.399999618530273
+          ],
+          "hidden": true
+        },
+        "roof__star_0": {
+          "p": [
+            1.1349999904632568,
+            5.1875,
+            -8.399999618530273
+          ],
+          "hidden": true
+        },
+        "roof__star_1": {
+          "p": [
+            1.3249999284744263,
+            5.375,
+            -8.399999618530273
+          ],
+          "hidden": true
+        },
+        "roof__star_2": {
+          "p": [
+            1.5149998664855957,
+            5.5625,
+            -8.399999618530273
+          ],
+          "hidden": true
+        },
+        "roof__star_3": {
+          "p": [
+            1.7049999237060547,
+            5.75,
+            -8.399999618530273
+          ],
+          "hidden": true
+        },
+        "roof__star_4": {
+          "p": [
+            1.8949999809265137,
+            5.9375,
+            -8.399999618530273
+          ],
+          "hidden": true
+        },
+        "roof__star_5": {
+          "p": [
+            2.0850000381469727,
+            6.125,
+            -8.399999618530273
+          ],
+          "hidden": true
+        },
+        "roof__star_6": {
+          "p": [
+            2.2749998569488525,
+            6.3125,
+            -8.399999618530273
+          ],
+          "hidden": true
+        },
+        "roof__star_7": {
+          "p": [
+            2.4649999141693115,
+            6.5,
+            -8.399999618530273
+          ],
+          "hidden": true
+        },
+        "east__exit_edge": {
+          "p": [
+            5.239999771118164,
+            2.0,
+            0.0
+          ],
+          "hidden": true
+        },
+        "east__exit_0": {
+          "p": [
+            5.324443817138672,
+            2.1777777671813965,
+            0.0
+          ],
+          "hidden": true
+        },
+        "east__exit_1": {
+          "p": [
+            5.493332862854004,
+            2.355555534362793,
+            0.0
+          ],
+          "hidden": true
+        },
+        "east__exit_2": {
+          "p": [
+            5.662221908569336,
+            2.5333333015441895,
+            0.0
+          ],
+          "hidden": true
+        },
+        "east__exit_3": {
+          "p": [
+            5.831110954284668,
+            2.711111068725586,
+            0.0
+          ],
+          "hidden": true
+        },
+        "east__exit_4": {
+          "p": [
+            6.0,
+            2.8888888359069824,
+            0.0
+          ],
+          "hidden": true
+        },
+        "east__exit_5": {
+          "p": [
+            6.168889045715332,
+            3.066666603088379,
+            0.0
+          ],
+          "hidden": true
+        },
+        "east__exit_6": {
+          "p": [
+            6.337777614593506,
+            3.2444443702697754,
+            0.0
+          ],
+          "hidden": true
+        },
+        "east__exit_7": {
+          "p": [
+            6.506666660308838,
+            3.422222137451172,
+            0.0
+          ],
+          "hidden": true
+        },
+        "east__exit_8": {
+          "p": [
+            6.675556182861328,
+            3.5999999046325684,
+            0.0
+          ],
+          "hidden": true
+        }
+      },
+      "edges": [
+        [
+          "west",
+          "west__key_edge"
+        ],
+        [
+          "west__key_edge",
+          "west__key_0"
+        ],
+        [
+          "west__key_0",
+          "west__key_1"
+        ],
+        [
+          "west__key_1",
+          "west__key_2"
+        ],
+        [
+          "west__key_2",
+          "west__key_3"
+        ],
+        [
+          "west__key_3",
+          "west__key_4"
+        ],
+        [
+          "west__key_4",
+          "west__key_5"
+        ],
+        [
+          "west__key_5",
+          "west__key_6"
+        ],
+        [
+          "west__key_6",
+          "west__key_7"
+        ],
+        [
+          "west__key_7",
+          "west__key_8"
+        ],
+        [
+          "west__key_8",
+          "key"
+        ],
+        [
+          "roof",
+          "roof__star_edge"
+        ],
+        [
+          "roof__star_edge",
+          "roof__star_0"
+        ],
+        [
+          "roof__star_0",
+          "roof__star_1"
+        ],
+        [
+          "roof__star_1",
+          "roof__star_2"
+        ],
+        [
+          "roof__star_2",
+          "roof__star_3"
+        ],
+        [
+          "roof__star_3",
+          "roof__star_4"
+        ],
+        [
+          "roof__star_4",
+          "roof__star_5"
+        ],
+        [
+          "roof__star_5",
+          "roof__star_6"
+        ],
+        [
+          "roof__star_6",
+          "roof__star_7"
+        ],
+        [
+          "roof__star_7",
+          "star"
+        ],
+        [
+          "east",
+          "east__exit_edge"
+        ],
+        [
+          "east__exit_edge",
+          "east__exit_0"
+        ],
+        [
+          "east__exit_0",
+          "east__exit_1"
+        ],
+        [
+          "east__exit_1",
+          "east__exit_2"
+        ],
+        [
+          "east__exit_2",
+          "east__exit_3"
+        ],
+        [
+          "east__exit_3",
+          "east__exit_4"
+        ],
+        [
+          "east__exit_4",
+          "east__exit_5"
+        ],
+        [
+          "east__exit_5",
+          "east__exit_6"
+        ],
+        [
+          "east__exit_6",
+          "east__exit_7"
+        ],
+        [
+          "east__exit_7",
+          "east__exit_8"
+        ],
+        [
+          "east__exit_8",
+          "exit"
+        ]
+      ],
+      "rotors": [
+        {
+          "id": "dial",
+          "p": [
+            0,
+            2,
+            0
+          ],
+          "ports": [
+            "west",
+            "start",
+            "east",
+            "north"
+          ],
+          "orientation": 0,
+          "tint": "mint"
+        }
+      ],
+      "collectibles": {
+        "key": {
+          "label": "風鈴",
+          "color": "D2F1E1"
+        },
+        "roof": {
+          "label": "雲朵",
+          "color": "C1DEE8"
+        },
+        "star": {
+          "label": "星光",
+          "color": "E1D5EF"
+        }
+      },
+      "stairs": [
+        [
+          "west",
+          "key"
+        ],
+        [
+          "roof",
+          "star"
+        ],
+        [
+          "east",
+          "exit"
+        ]
+      ],
+      "exit": "exit",
+      "start": "start",
+      "lift": {
+        "id": "lift",
+        "p": [
+          0,
+          2,
+          -6.3
+        ],
+        "height": 5,
+        "lower": "north",
+        "upper": "roof",
+        "key": "key"
+      },
+      "gated_edges": [],
+      "solution": [
+        [
+          "walk",
+          "key"
+        ],
+        [
+          "walk",
+          "dial"
+        ],
+        [
+          "turn",
+          -1
+        ],
+        [
+          "walk",
+          "lift"
+        ],
+        [
+          "lift"
+        ],
+        [
+          "walk",
+          "star"
+        ],
+        [
+          "walk",
+          "lift"
+        ],
+        [
+          "lift"
+        ],
+        [
+          "walk",
+          "dial"
+        ],
+        [
+          "turn",
+          -1
+        ],
+        [
+          "walk",
+          "exit"
+        ]
+      ]
+    },
+    {
+      "title": "雙庭星環",
+      "subtitle": "兩座庭院，四枚微光，一條歸途。",
+      "background": "F1E5E9",
+      "focus": [
+        0,
+        2.7,
+        -2.0
+      ],
+      "camera_size": 25.4,
+      "nodes": {
+        "start": {
+          "p": [
+            -4.2,
+            2,
+            5.2
+          ],
+          "style": "start",
+          "tint": "blue",
+          "name": "低庭入口"
+        },
+        "west": {
+          "p": [
+            -8.4,
+            2,
+            1
+          ],
+          "style": "balcony",
+          "tint": "mint",
+          "name": "薄荷廊"
+        },
+        "garden": {
+          "p": [
+            -8.4,
+            3.6,
+            -2.6
+          ],
+          "style": "garden",
+          "tint": "mint",
+          "name": "風之花園"
+        },
+        "switch": {
+          "p": [
+            -4.2,
+            2,
+            -3.2
+          ],
+          "style": "switch",
+          "tint": "blue",
+          "name": "天階開關"
+        },
+        "transfer": {
+          "p": [
+            0,
+            2,
+            1
+          ],
+          "style": "balcony",
+          "tint": "pink",
+          "name": "天階下站"
+        },
+        "upper_west": {
+          "p": [
+            0,
+            5,
+            -3.2
+          ],
+          "style": "balcony",
+          "tint": "lavender",
+          "name": "天階上站"
+        },
+        "upper_south": {
+          "p": [
+            4.2,
+            5,
+            1
+          ],
+          "style": "garden",
+          "tint": "pink",
+          "name": "雲中花園"
+        },
+        "upper_north": {
+          "p": [
+            4.2,
+            5,
+            -7.4
+          ],
+          "style": "balcony",
+          "tint": "blue",
+          "name": "觀星回廊"
+        },
+        "star": {
+          "p": [
+            4.2,
+            7,
+            -11
+          ],
+          "style": "observatory",
+          "tint": "lavender",
+          "name": "最高的星台"
+        },
+        "exit": {
+          "p": [
+            8.4,
+            5,
+            -3.2
+          ],
+          "style": "exit",
+          "tint": "peach",
+          "name": "歸途之門"
+        },
+        "west__garden_edge": {
+          "p": [
+            -8.399999618530273,
+            2.0,
+            -0.039999961853027344
+          ],
+          "hidden": true
+        },
+        "west__garden_0": {
+          "p": [
+            -8.399999618530273,
+            2.1777777671813965,
+            -0.12444444000720978
+          ],
+          "hidden": true
+        },
+        "west__garden_1": {
+          "p": [
+            -8.399999618530273,
+            2.355555534362793,
+            -0.2933333218097687
+          ],
+          "hidden": true
+        },
+        "west__garden_2": {
+          "p": [
+            -8.399999618530273,
+            2.5333333015441895,
+            -0.4622221887111664
+          ],
+          "hidden": true
+        },
+        "west__garden_3": {
+          "p": [
+            -8.399999618530273,
+            2.711111068725586,
+            -0.6311110854148865
+          ],
+          "hidden": true
+        },
+        "west__garden_4": {
+          "p": [
+            -8.399999618530273,
+            2.8888888359069824,
+            -0.7999999523162842
+          ],
+          "hidden": true
+        },
+        "west__garden_5": {
+          "p": [
+            -8.399999618530273,
+            3.066666603088379,
+            -0.9688888192176819
+          ],
+          "hidden": true
+        },
+        "west__garden_6": {
+          "p": [
+            -8.399999618530273,
+            3.2444443702697754,
+            -1.1377776861190796
+          ],
+          "hidden": true
+        },
+        "west__garden_7": {
+          "p": [
+            -8.399999618530273,
+            3.422222137451172,
+            -1.306666612625122
+          ],
+          "hidden": true
+        },
+        "west__garden_8": {
+          "p": [
+            -8.399999618530273,
+            3.5999999046325684,
+            -1.475555419921875
+          ],
+          "hidden": true
+        },
+        "transfer__upper_west_edge": {
+          "p": [
+            0.0,
+            2.0,
+            -0.039999961853027344
+          ],
+          "hidden": true
+        },
+        "transfer__upper_west_0": {
+          "p": [
+            0.0,
+            2.1875,
+            -0.10624996572732925
+          ],
+          "hidden": true
+        },
+        "transfer__upper_west_1": {
+          "p": [
+            0.0,
+            2.375,
+            -0.23874998092651367
+          ],
+          "hidden": true
+        },
+        "transfer__upper_west_2": {
+          "p": [
+            0.0,
+            2.5625,
+            -0.3712499737739563
+          ],
+          "hidden": true
+        },
+        "transfer__upper_west_3": {
+          "p": [
+            0.0,
+            2.75,
+            -0.5037499666213989
+          ],
+          "hidden": true
+        },
+        "transfer__upper_west_4": {
+          "p": [
+            0.0,
+            2.9375,
+            -0.6362500190734863
+          ],
+          "hidden": true
+        },
+        "transfer__upper_west_5": {
+          "p": [
+            0.0,
+            3.125,
+            -0.7687499523162842
+          ],
+          "hidden": true
+        },
+        "transfer__upper_west_6": {
+          "p": [
+            0.0,
+            3.3125,
+            -0.9012500047683716
+          ],
+          "hidden": true
+        },
+        "transfer__upper_west_7": {
+          "p": [
+            0.0,
+            3.5,
+            -1.033750057220459
+          ],
+          "hidden": true
+        },
+        "transfer__upper_west_8": {
+          "p": [
+            0.0,
+            3.6875,
+            -1.1662499904632568
+          ],
+          "hidden": true
+        },
+        "transfer__upper_west_9": {
+          "p": [
+            0.0,
+            3.875,
+            -1.2987500429153442
+          ],
+          "hidden": true
+        },
+        "transfer__upper_west_10": {
+          "p": [
+            0.0,
+            4.0625,
+            -1.431249976158142
+          ],
+          "hidden": true
+        },
+        "transfer__upper_west_11": {
+          "p": [
+            0.0,
+            4.25,
+            -1.5637500286102295
+          ],
+          "hidden": true
+        },
+        "transfer__upper_west_12": {
+          "p": [
+            0.0,
+            4.4375,
+            -1.696250081062317
+          ],
+          "hidden": true
+        },
+        "transfer__upper_west_13": {
+          "p": [
+            0.0,
+            4.625,
+            -1.8287501335144043
+          ],
+          "hidden": true
+        },
+        "transfer__upper_west_14": {
+          "p": [
+            0.0,
+            4.8125,
+            -1.9612500667572021
+          ],
+          "hidden": true
+        },
+        "transfer__upper_west_15": {
+          "p": [
+            0.0,
+            5.0,
+            -2.09375
+          ],
+          "hidden": true
+        },
+        "upper_north__star_edge": {
+          "p": [
+            4.199999809265137,
+            5.0,
+            -8.440000534057617
+          ],
+          "hidden": true
+        },
+        "upper_north__star_0": {
+          "p": [
+            4.199999809265137,
+            5.181818008422852,
+            -8.5090913772583
+          ],
+          "hidden": true
+        },
+        "upper_north__star_1": {
+          "p": [
+            4.199999809265137,
+            5.363636493682861,
+            -8.647273063659668
+          ],
+          "hidden": true
+        },
+        "upper_north__star_2": {
+          "p": [
+            4.199999809265137,
+            5.545454502105713,
+            -8.785455703735352
+          ],
+          "hidden": true
+        },
+        "upper_north__star_3": {
+          "p": [
+            4.199999809265137,
+            5.7272725105285645,
+            -8.923636436462402
+          ],
+          "hidden": true
+        },
+        "upper_north__star_4": {
+          "p": [
+            4.199999809265137,
+            5.909090995788574,
+            -9.061819076538086
+          ],
+          "hidden": true
+        },
+        "upper_north__star_5": {
+          "p": [
+            4.199999809265137,
+            6.090909004211426,
+            -9.200000762939453
+          ],
+          "hidden": true
+        },
+        "upper_north__star_6": {
+          "p": [
+            4.199999809265137,
+            6.2727274894714355,
+            -9.33818244934082
+          ],
+          "hidden": true
+        },
+        "upper_north__star_7": {
+          "p": [
+            4.199999809265137,
+            6.454545497894287,
+            -9.476364135742188
+          ],
+          "hidden": true
+        },
+        "upper_north__star_8": {
+          "p": [
+            4.199999809265137,
+            6.636363506317139,
+            -9.614545822143555
+          ],
+          "hidden": true
+        },
+        "upper_north__star_9": {
+          "p": [
+            4.199999809265137,
+            6.818181991577148,
+            -9.752727508544922
+          ],
+          "hidden": true
+        },
+        "upper_north__star_10": {
+          "p": [
+            4.199999809265137,
+            7.0,
+            -9.890909194946289
+          ],
+          "hidden": true
+        }
+      },
+      "edges": [
+        [
+          "west",
+          "west__garden_edge"
+        ],
+        [
+          "west__garden_edge",
+          "west__garden_0"
+        ],
+        [
+          "west__garden_0",
+          "west__garden_1"
+        ],
+        [
+          "west__garden_1",
+          "west__garden_2"
+        ],
+        [
+          "west__garden_2",
+          "west__garden_3"
+        ],
+        [
+          "west__garden_3",
+          "west__garden_4"
+        ],
+        [
+          "west__garden_4",
+          "west__garden_5"
+        ],
+        [
+          "west__garden_5",
+          "west__garden_6"
+        ],
+        [
+          "west__garden_6",
+          "west__garden_7"
+        ],
+        [
+          "west__garden_7",
+          "west__garden_8"
+        ],
+        [
+          "west__garden_8",
+          "garden"
+        ],
+        [
+          "transfer",
+          "transfer__upper_west_edge"
+        ],
+        [
+          "transfer__upper_west_edge",
+          "transfer__upper_west_0"
+        ],
+        [
+          "transfer__upper_west_0",
+          "transfer__upper_west_1"
+        ],
+        [
+          "transfer__upper_west_1",
+          "transfer__upper_west_2"
+        ],
+        [
+          "transfer__upper_west_2",
+          "transfer__upper_west_3"
+        ],
+        [
+          "transfer__upper_west_3",
+          "transfer__upper_west_4"
+        ],
+        [
+          "transfer__upper_west_4",
+          "transfer__upper_west_5"
+        ],
+        [
+          "transfer__upper_west_5",
+          "transfer__upper_west_6"
+        ],
+        [
+          "transfer__upper_west_6",
+          "transfer__upper_west_7"
+        ],
+        [
+          "transfer__upper_west_7",
+          "transfer__upper_west_8"
+        ],
+        [
+          "transfer__upper_west_8",
+          "transfer__upper_west_9"
+        ],
+        [
+          "transfer__upper_west_9",
+          "transfer__upper_west_10"
+        ],
+        [
+          "transfer__upper_west_10",
+          "transfer__upper_west_11"
+        ],
+        [
+          "transfer__upper_west_11",
+          "transfer__upper_west_12"
+        ],
+        [
+          "transfer__upper_west_12",
+          "transfer__upper_west_13"
+        ],
+        [
+          "transfer__upper_west_13",
+          "transfer__upper_west_14"
+        ],
+        [
+          "transfer__upper_west_14",
+          "transfer__upper_west_15"
+        ],
+        [
+          "transfer__upper_west_15",
+          "upper_west"
+        ],
+        [
+          "upper_north",
+          "upper_north__star_edge"
+        ],
+        [
+          "upper_north__star_edge",
+          "upper_north__star_0"
+        ],
+        [
+          "upper_north__star_0",
+          "upper_north__star_1"
+        ],
+        [
+          "upper_north__star_1",
+          "upper_north__star_2"
+        ],
+        [
+          "upper_north__star_2",
+          "upper_north__star_3"
+        ],
+        [
+          "upper_north__star_3",
+          "upper_north__star_4"
+        ],
+        [
+          "upper_north__star_4",
+          "upper_north__star_5"
+        ],
+        [
+          "upper_north__star_5",
+          "upper_north__star_6"
+        ],
+        [
+          "upper_north__star_6",
+          "upper_north__star_7"
+        ],
+        [
+          "upper_north__star_7",
+          "upper_north__star_8"
+        ],
+        [
+          "upper_north__star_8",
+          "upper_north__star_9"
+        ],
+        [
+          "upper_north__star_9",
+          "upper_north__star_10"
+        ],
+        [
+          "upper_north__star_10",
+          "star"
+        ]
+      ],
+      "rotors": [
+        {
+          "id": "lower_dial",
+          "p": [
+            -4.2,
+            2,
+            1
+          ],
+          "ports": [
+            "west",
+            "start",
+            "transfer",
+            "switch"
+          ],
+          "orientation": 0,
+          "tint": "mint"
+        },
+        {
+          "id": "upper_dial",
+          "p": [
+            4.2,
+            5,
+            -3.2
+          ],
+          "ports": [
+            "upper_west",
+            "upper_south",
+            "exit",
+            "upper_north"
+          ],
+          "orientation": 0,
+          "tint": "lavender"
+        }
+      ],
+      "collectibles": {
+        "garden": {
+          "label": "風",
+          "color": "D2F1E1"
+        },
+        "switch": {
+          "label": "鈴",
+          "color": "C1DEE8"
+        },
+        "upper_south": {
+          "label": "花",
+          "color": "F5BCBD"
+        },
+        "star": {
+          "label": "星",
+          "color": "E1D5EF"
+        }
+      },
+      "stairs": [
+        [
+          "west",
+          "garden"
+        ],
+        [
+          "transfer",
+          "upper_west"
+        ],
+        [
+          "upper_north",
+          "star"
+        ]
+      ],
+      "exit": "exit",
+      "start": "start",
+      "lift": null,
+      "gated_edges": [
+        [
+          "transfer",
+          "transfer__upper_west_edge"
+        ]
+      ],
+      "gate": {
+        "a": "transfer",
+        "b": "upper_west",
+        "key": "switch"
+      },
+      "solution": [
+        [
+          "walk",
+          "garden"
+        ],
+        [
+          "walk",
+          "lower_dial"
+        ],
+        [
+          "turn",
+          -1
+        ],
+        [
+          "walk",
+          "switch"
+        ],
+        [
+          "walk",
+          "lower_dial"
+        ],
+        [
+          "turn",
+          -1
+        ],
+        [
+          "walk",
+          "upper_south"
+        ],
+        [
+          "walk",
+          "upper_dial"
+        ],
+        [
+          "turn",
+          -1
+        ],
+        [
+          "walk",
+          "star"
+        ],
+        [
+          "walk",
+          "upper_dial"
+        ],
+        [
+          "turn",
+          -1
+        ],
+        [
+          "walk",
+          "exit"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+# Generated Godot cache and local engine installation
+.godot/
+tools/
+export_templates/
+feature_profiles/
+script_templates/
+text_editor_themes/
+override.cfg
+# Local iteration history and recordings
+versions/
+video/*
+!video/.gitkeep
+preview/*
+!preview/.gitkeep
+*.blend1
+*.blend2
+*.avi
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+/*.command
+# Superseded first-prototype geometry
+assets/courtyard.glb
+assets/courtyard.glb.import
+assets/turning_bridge.glb
+assets/turning_bridge.glb.import

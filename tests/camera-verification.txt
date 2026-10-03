@@ -1,0 +1,11 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 4.1 Metal - 91.7 - Compatibility - Using Device: Apple - Apple M5 Pro
+
+PORTRAIT_CAMERA_1_PASS
+PORTRAIT_CAMERA_2_PASS
+PORTRAIT_CAMERA_3_PASS
+CAMERA_TEST_PASS: 3:4 framing, 24 yaw views, anchored zoom, drag without walking, pinch without false tap, click-to-walk, reset
+WARNING: 2 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2536)
+ERROR: 1 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:822)
